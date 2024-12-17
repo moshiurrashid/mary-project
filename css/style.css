@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Header Start Here....*/
+
+/*Navbar Start Here....*/
+
+header {
+  padding-top: 50px;
+  background: #fff8f3;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #474747;
+  transition: 0.4s;
+}
+
+header nav ul li a:hover {
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  background: #fd6e0a;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+header nav ul li:last-child a {
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  background: #fd6e0a;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/*Navbar End Here....*/
+/*Banner Start Here....*/
+#Banner {
+  background: url(../Images/banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 185px 0;
+  position: relative;
+}
+
+#Banner .banner_title h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+#Banner .banner_title h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+#Banner .banner_title p {
+  width: 585px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+#Banner .bann_button button {
+  padding: 17px 18px;
+  background: transparent;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+#Banner .bann_button button:hover {
+  background: #fd6e0a;
+  color: #ffffff;
+}
+
+#Banner .bann_button button:first-child {
+  background: #fd6e0a;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+#Banner button span {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+#Banner .banner_heading {
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 230px;
+  left: -120px;
+}
+
+#Banner .banner_heading h2 {
+  font-size: 120px;
+  font-weight: 700;
+  color: rgba(24, 24, 24, 0.15);
+}
+/*Banner End Here....*/
+/*Header End Here....*/
+
+/*About Start Here....*/
+#about {
+  margin: 130px 0;
+}
+
+#about .about_text {
+  padding: 131px 156px;
+  background: #fff8f3;
+  text-align: center;
+}
+
+#about .about_text .title h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+#about .about_text .title h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+#about .about_text .title p {
+  width: 827px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+#about .about_text .contact_info ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .about_text .contact_info ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+}
+
+#about .about_text .contact_info ul li span {
+  font-weight: 700;
+  color: #474747;
+}
+
+/*About End Here....*/
+/*Skill Part Start Here...*/
+#skills .skill_title {
+  text-align: center;
+}
+
+#skills .skill_title h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+#skills .skill_title p {
+  width: 909px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#skills .skill_info .item {
+  padding: 30px 30px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+#skills .skill_info .item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 30px;
+}
+
+#skills .skill_info .item .react {
+  margin-top: 38px;
+}
+
+#skills .skill_info .item p {
+  width: 201px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #757575;
+  margin-top: 20px;
+}
+
+/*Skill Part End Here...*/
+/*Resume Part Start Here...*/
+#resume {
+  padding: 130px 0 113px 0;
+}
+
+#resume .resum_title h3 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 113px;
+}
+
+#resume .resume_detils .title h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+/* #resume .resume_detils .item{
+    padding: 30px 0;
+} */
+
+#resume .resume_detils .item h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+#resume .resume_detils .item h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+#resume .resume_detils .item p {
+  width: 511px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #757575;
+}
+
+#resume .resume_detils hr {
+  margin: 30px 0;
+}
+
+#resume .resume_button {
+  text-align: center;
+}
+
+#resume .resume_button button {
+  padding: 18px 17px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #fd6e0a;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: none;
+}
+
+#resume .resume_button button span {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/*Resune Part End Here...*/
+/*Footer Part Start Here...*/
+#footer {
+  padding: 130px 0;
+  background: #fff8f3;
+}
+
+#footer .footer_left h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+#footer .footer_left p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+#footer .footer_left .footer_social_icon ul {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+#footer .footer_left .footer_social_icon ul li {
+  list-style: none;
+  font-size: 24px;
+  color: #fd6e0a;
+}
+
+#footer .footer_right h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 28px;
+}
+
+#footer .footer_right input {
+  width: 461px;
+  padding: 18px 0 18px 30px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+#footer .footer_right .message input {
+  width: 461px;
+  padding: 18px 0 134px 30px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+#footer .footer_right .message input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #757575;
+}
+
+#footer .footer_right button {
+  padding: 18px 39px;
+  background: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+/*Footer Part End Here...*/
